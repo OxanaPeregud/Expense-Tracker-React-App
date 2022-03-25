@@ -1,3 +1,4 @@
+import React from "react";
 import './App.css';
 import Expenses from "./components/Expenses";
 
@@ -6,7 +7,7 @@ function App() {
     const expenses = [
         {
             id: 'e1',
-            title: 'Toilet Paper',
+            title: 'Food',
             amount: 94.12,
             date: new Date(2020, 7, 14),
         },
